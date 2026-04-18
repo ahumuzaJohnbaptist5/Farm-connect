@@ -1,3 +1,3 @@
 export function isValidUgandanPhone(phoneNumber) {
-  return /^(\+256|0)7\d{8}$/.test(phoneNumber);
+  return /^(\+2567\d{8}|07\d{8})$/.test(phoneNumber);
 }
